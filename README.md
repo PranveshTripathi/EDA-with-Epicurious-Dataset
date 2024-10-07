@@ -65,18 +65,18 @@ Create a 3D scatter plot for recipe clips/images, where the x-axis represents Ca
 
 ## Key Insight
 1) Conclusion: The Top 10 Ingredients in Higly Rated Recipes are :-
-  Pastry Dough
-  Turkey Stock
-  Simple Syrup
-  Salsa Verde
-  Turkey Giblet Stock
-  Pizza Dough
-  Root Vegetable Gratin
-  Vegetable Stock
-  Chicken Stock
-  Horseradish Cream
+  1) Pastry Dough
+  2) Turkey Stock
+  3) Simple Syrup
+  4) Salsa Verde
+  5) Turkey Giblet Stock
+  6) Pizza Dough
+  7) Root Vegetable Gratin
+  8) Vegetable Stock
+  9) Chicken Stock
+  10) Horseradish Cream
 
-2) As according to my analysis Overall, the correlation of 0.95 suggests a negligible relationship between preparation time and recipe ratings. This means that changes in preparation time are unlikely to predict       or influence the ratings given by users for the recipes. we can also use scatter plot, regression, hypothesis(person) to show these correlation between the preparation Time and rating.
+3) As according to my analysis Overall, the correlation of 0.95 suggests a negligible relationship between preparation time and recipe ratings. This means that changes in preparation time are unlikely to predict       or influence the ratings given by users for the recipes. we can also use scatter plot, regression, hypothesis(person) to show these correlation between the preparation Time and rating.
 
 
 Exploratory Data Analysis (EDA) has been successfully completed, utilizing various techniques to uncover patterns, trends, and insights within the data.
