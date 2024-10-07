@@ -1,7 +1,7 @@
 # EDA-with-Epicurious-Dataset
 In my project, I performed comprehensive data cleaning and exploratory data analysis (EDA) using the EpiRecipes dataset from Kaggle. This involved handling missing, duplicate, and incorrect data, followed by visualizing key trends and insights. The project showcased my ability to derive actionable findings from data, enhancing decision-making.
 
-# Exploratory Datqa Analysis
+# Exploratory Data Analysis
 ## Data Acquisition:
  > Accessed the EpiRecipes dataset from Kaggle, which contains comprehensive recipe information such as ingredients, cuisine types, preparation times, and ratings.
  > Downloaded the dataset in CSV format and loaded it into the Python environment using Pandas for further analysis.
@@ -40,14 +40,22 @@ Create a 3D scatter plot for recipe clips/images, where the x-axis represents Ca
 ![image](https://github.com/user-attachments/assets/611f11ab-6da2-46b0-9cfa-6e964322a33a)
 
 
+
 ![image](https://github.com/user-attachments/assets/cec9f483-b5ad-4c91-a80f-7400c62e0c0e)
+
+
 
 
 ### The Dashboard Images:-
 
 ![image](https://github.com/user-attachments/assets/82f57860-cdcb-4d02-a756-904f8ea3db95)
 
+
+
 ![image](https://github.com/user-attachments/assets/ae85f5fd-bc5d-452c-ab1f-6c6be938b23d)
+
+
+
 
 ![image](https://github.com/user-attachments/assets/02edc125-1f05-4d7a-9bcb-c6f1f1f57368)
 
@@ -74,4 +82,4 @@ Create a 3D scatter plot for recipe clips/images, where the x-axis represents Ca
 Exploratory Data Analysis (EDA) has been successfully completed, utilizing various techniques to uncover patterns, trends, and insights within the data.
 
 
-## Thank You for Visiting
+# Thank You for Visiting
