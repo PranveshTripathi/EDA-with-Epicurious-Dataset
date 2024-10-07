@@ -3,34 +3,34 @@ In my project, I performed comprehensive data cleaning and exploratory data anal
 
 # Exploratory Data Analysis
 ## Data Acquisition:
- > Accessed the EpiRecipes dataset from Kaggle, which contains comprehensive recipe information such as ingredients, cuisine types, preparation times, and ratings.
- > Downloaded the dataset in CSV format and loaded it into the Python environment using Pandas for further analysis.
- > Ensured the dataset was properly structured for analysis by checking for issues such as encoding errors or missing data during the initial data loading process.
+ 1) Accessed the EpiRecipes dataset from Kaggle, which contains comprehensive recipe information such as ingredients, cuisine types, preparation times, and ratings.
+ 2) Downloaded the dataset in CSV format and loaded it into the Python environment using Pandas for further analysis.
+ 3) Ensured the dataset was properly structured for analysis by checking for issues such as encoding errors or missing data during the initial data loading process.
 
 ## Data Cleaning:
 
- > Missing Data Handling: Identified columns and rows with missing values using Pandas functions and applied various imputation techniques, such as replacing missing values with the mean/median for numerical data.
- > Duplicate Data Removal: Detected and removed duplicate entries to avoid skewed analysis and ensure data integrity.
+ 1) Missing Data Handling: Identified columns and rows with missing values using Pandas functions and applied various imputation techniques, such as replacing missing values with the mean/median for numerical data.
+ 2) Duplicate Data Removal: Detected and removed duplicate entries to avoid skewed analysis and ensure data integrity.
  
  ## Data Preprocessing:
 
- > Outlier Detection: Applied statistical methods to detect and handle outliers in variables like preparation time and ingredient quantities that could distort analysis results, method which I have used in this       analysis is Z_Score.
- > To address the absence of preparation times in the dataset, I created a new column, 'Prep-Time,' based on the calorie content of each recipe. Recipes with fewer than 200 calories have a prep time of 5 to 10       minutes. Those with 200 to 500 calories take 15 to 30 minutes, while recipes with 500 to 800 calories require 30 to 60 minutes. Lastly, recipes exceeding 800 calories typically take 60 to 120 minutes. This        approach fills a significant gap in the dataset and enhances its usability.
+ 1) Outlier Detection: Applied statistical methods to detect and handle outliers in variables like preparation time and ingredient quantities that could distort analysis results, method which I have used in this       analysis is Z_Score.
+ 2) To address the absence of preparation times in the dataset, I created a new column, 'Prep-Time,' based on the calorie content of each recipe. Recipes with fewer than 200 calories have a prep time of 5 to 10       minutes. Those with 200 to 500 calories take 15 to 30 minutes, while recipes with 500 to 800 calories require 30 to 60 minutes. Lastly, recipes exceeding 800 calories typically take 60 to 120 minutes. This        approach fills a significant gap in the dataset and enhances its usability.
 
 
 ## Exploratory Data Analysis (EDA):
 
- > Explored the relationships between key variables, such as preparation time and recipe rating, using correlation matrices.
- > Applied group-by operations to assess how cuisine types differ in terms of ingredient usage, preparation time, and popularity.
- > Checking the Skewness of the data witht the help of Probabilty ploting or graphs
+1) Explored the relationships between key variables, such as preparation time and recipe rating, using correlation matrices.
+2) Applied group-by operations to assess how cuisine types differ in terms of ingredient usage, preparation time, and popularity.
+3) Checking the Skewness of the data witht the help of Probabilty ploting or graphs
 
 
 ## Data Visualization:
 
- > Created interactive and static visualizations using Matplotlib, Seaborn, and Plotly to illustrate trends and distributions within the dataset.
- > Visualized relationships between variables using scatter plots, bar charts, and box plots to uncover insights such as the top-rated Recipes or the recipes with the shortest preparation time.
- > Used heatmaps to visualize correlations between recipe features and ratings, making it easier to detect patterns in the data.
- > Created the Interactive Dashboard with the help of Panel library.
+ 1) Created interactive and static visualizations using Matplotlib, Seaborn, and Plotly to illustrate trends and distributions within the dataset.
+ 2) Visualized relationships between variables using scatter plots, bar charts, and box plots to uncover insights such as the top-rated Recipes or the recipes with the shortest preparation time.
+ 3) Used heatmaps to visualize correlations between recipe features and ratings, making it easier to detect patterns in the data.
+ 4) Created the Interactive Dashboard with the help of Panel library.
 
 
 # Results :-
